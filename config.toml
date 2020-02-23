@@ -13,6 +13,7 @@ defaultContentLanguage = "ko"
 [params]
 headTitle = "성공한 젊은이"
 disqus = "sohn_dangen"
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158927245-1"></script>'
 
 [[params.socials]]
 name = "Me"
