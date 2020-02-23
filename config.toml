@@ -19,3 +19,5 @@ link = "https://www.youtube.com/channel/UC7hYsleeRIUjlBz2LJRCbuQ"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/dangen-effy"
+
+menu = "about"
