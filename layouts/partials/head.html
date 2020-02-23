@@ -2,8 +2,8 @@
     <meta charset="utf-8" />
     {{ hugo.Generator }}
   
-    <script data-ad-client="ca-pub-2496189326742805" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="{{ .Site.Author.name }}" />
@@ -44,14 +44,16 @@
       (function (undefined) { }).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
     </script> -->
   
+    <script data-ad-client="ca-pub-2496189326742805" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
     {{ .Site.Params.extraHead | safeHTML }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-158927245-1');
+        gtag('config', 'UA-158927245-1');
     </script>
   </head>
   
