@@ -1,14 +1,16 @@
 baseURL = "https://dangen-effy.github.io/"
 languageCode = "ko-kr"
+paginate = 5
 title = "손당근 개발 블로그"
+enableEmoji = true
 theme = "hugo-theme-yinyang"
+defaultContentLanguage = "ko"
 
 [author]
   name = "Sohn Dangen"
   homepage = "https://dangen-effy.github.io/"
 
 [params]
-mainSections = ["posts"]
 headTitle = "성공한 젊은이"
 
 [[params.socials]]
