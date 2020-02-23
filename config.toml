@@ -1,7 +1,7 @@
 baseURL = "https://dangen-effy.github.io/"
 languageCode = "ko-kr"
 title = "손당근 개발 블로그"
-theme = "yinyang"
+theme = "hugo-theme-yinyang"
 DefaultContentLanguage = "ko"
 
 [author]
