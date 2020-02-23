@@ -1,3 +1,21 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://dangen-effy.github.io/"
+languageCode = "ko-kr"
+title = "손당근 개발 블로그"
+theme = "yinyang"
+DefaultContentLanguage = "ko"
+
+[author]
+  name = "Sohn Dangen"
+  homepage = "https://dangen-effy.github.io/"
+
+[params]
+mainSections = ["posts"]
+headTitle = "성공한 젊은이"
+disqus = "dangen-effy" # disqus account name
+
+[[params.socials]]
+name = "Me"
+link = "https://www.youtube.com/channel/UC7hYsleeRIUjlBz2LJRCbuQ"
+[[params.socials]]
+name = "Github"
+link = "https://github.com/dangen-effy"
