@@ -19,7 +19,7 @@ extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1
 name = "Me"
 link = "https://www.youtube.com/channel/UC7hYsleeRIUjlBz2LJRCbuQ"
 [[params.socials]]
-name = "Github"
+name = "GitHub"
 link = "https://github.com/dangen-effy"
 [[params.socials]]
 name = "RSS"
