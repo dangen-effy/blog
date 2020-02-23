@@ -1,7 +1,7 @@
 ---
 title: "Janus 소개와 Docker 기반으로 쉽게 사용하기"
 date: 2020-02-23T15:22:11+09:00
-draft: true
+draft: false
 ---
 
 [리모트몬스터](https://www.remotemonster.com/)의 백엔드 로직 중 일부는 Janus의 힘을 빌리고 있습니다. 이번 시간에는 Janus가 무엇인지 알아보고 설치와 데모 실행까지 다뤄보겠습니다.
