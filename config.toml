@@ -2,7 +2,6 @@ baseURL = "https://dangen-effy.github.io/"
 languageCode = "ko-kr"
 title = "손당근 개발 블로그"
 theme = "hugo-theme-yinyang"
-DefaultContentLanguage = "ko"
 
 [author]
   name = "Sohn Dangen"
@@ -11,7 +10,6 @@ DefaultContentLanguage = "ko"
 [params]
 mainSections = ["posts"]
 headTitle = "성공한 젊은이"
-disqus = "dangen-effy" # disqus account name
 
 [[params.socials]]
 name = "Me"
