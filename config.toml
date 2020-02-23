@@ -12,6 +12,7 @@ defaultContentLanguage = "ko"
 
 [params]
 headTitle = "성공한 젊은이"
+disqus = "sohn_dangen"
 
 [[params.socials]]
 name = "Me"
@@ -19,7 +20,6 @@ link = "https://www.youtube.com/channel/UC7hYsleeRIUjlBz2LJRCbuQ"
 [[params.socials]]
 name = "Github"
 link = "https://github.com/dangen-effy"
-
-pygmentsCodeFences = true
-disqusShortname = "sohn_dangen"
-googleAnalytics = "UA-158927245-1"
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
