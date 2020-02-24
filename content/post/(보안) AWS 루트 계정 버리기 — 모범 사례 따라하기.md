@@ -1,5 +1,8 @@
 ---
 title: "(보안) AWS 루트 계정 버리기 — 모범 사례 따라하기"
+description: "대부분 스타트업의 자료는 클라우드에 저장됩니다. 루트 계정을 사용하면서요. 🔑"
+tags: ["AWS", "Security", "MFA"]
+categories: ["AWS IAM", "Security", "Best Practices", "MFA", "OTP"]
 date: 2020-02-23T15:25:42+09:00
 draft: false
 ---

@@ -1,5 +1,8 @@
 ---
 title: "Janus 소개와 Docker 기반으로 쉽게 사용하기"
+description: "도커를 이용한 Janus 실행해보기"
+tags: ["Docker", "WebRTC"]
+categories: ["Docker", "WebRTC"]
 date: 2020-02-23T15:22:11+09:00
 draft: false
 ---

@@ -1,10 +1,11 @@
 ---
 title: "Statless 소켓 서버 구현하기"
+description: "무상태 소켓 서버 만들기"
+tags: ["WebSocket", "Stateless"]
+categories: ["WebSocket", "Socket.io", "Stateless", "Redis"]
 date: 2020-02-23T15:25:14+09:00
 draft: false
 ---
-
-Photo by Troy Bridges on Unsplash
 
 애플리케이션을 무 상태로 구현하는 것은 매우 중요합니다. 그래야 언제든 확장 및 축소가 가능하기 때문이죠. 그러나 구조적으로 유 상태 애플리케이션이 되는 것들이 있습니다. 대표적인 사례가 보통 소켓 통신을 사용하는 WebRTC의 시그널링 서버입니다. 따라서 이를 무 상태 구조로 만들어 주는게 가장 큰 과제죠.
 

@@ -1,5 +1,8 @@
 ---
 title: "Modern Web-App The Hard Way"
+description: "모던한 웹 애플리케이션을 만드는 방법"
+tags: ["CI/CD", "The Twelve-Factor Application"]
+categories: ["CI/CD", "The Twelve-Factor Application", "Stateless", "Best Practices"]
 date: 2020-02-23T15:23:57+09:00
 draft: false
 ---
