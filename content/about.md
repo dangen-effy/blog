@@ -1,6 +1,5 @@
 ---
 title: "About"
-date: "1970-01-01"
 menu: "main"
 meta: false
 weight: "20"
