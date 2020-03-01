@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/dangen-effy/dangen-effy.github.io
 	branch = master
+[submodule "static/Promise-all-visualized"]
+	path = static/Promise-all-visualized
+	url = https://github.com/dangen-effy/Promise-all-visualized
