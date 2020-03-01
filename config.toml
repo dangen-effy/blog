@@ -11,6 +11,7 @@ enableRobotsTXT = true
   homepage = "https://dangen-effy.github.io/"
 
 [params]
+mainSections = ["post"]
 headTitle = "🥕성공한 젊은이"
 description = "자바스크립트, 데브옵스, 백엔드, 개발, Node.js, JavaScript, DevOps, Docker"
 disqus = "sohn-dangen-blog"
