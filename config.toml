@@ -18,6 +18,7 @@ disqus = "sohn-dangen-blog"
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158927245-1"></script>'
 favicon = "/favicon.ico"
 location = "Seoul, Korea"
+images = ["dangen.png"]
 
 [[params.socials]]
 name = "Me"
