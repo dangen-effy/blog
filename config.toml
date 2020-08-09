@@ -24,8 +24,5 @@ images = ["dangen.png"]
 name = "Me"
 link = "https://dangen-effy.github.io/about"
 [[params.socials]]
-name = "GitHub"
-link = "https://github.com/dangen-effy"
-[[params.socials]]
 name = "RSS"
 link = "/index.xml"
