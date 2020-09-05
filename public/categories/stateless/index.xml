@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stateless on 손당근 개발 블로그</title>
+    <link>https://dangen-effy.github.io/categories/stateless/</link>
+    <description>Recent content in Stateless on 손당근 개발 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 23 Feb 2020 15:25:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://dangen-effy.github.io/categories/stateless/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Statless 소켓 서버 구현하기</title>
+      <link>https://dangen-effy.github.io/post/statless-%EC%86%8C%EC%BC%93-%EC%84%9C%EB%B2%84-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 23 Feb 2020 15:25:14 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/post/statless-%EC%86%8C%EC%BC%93-%EC%84%9C%EB%B2%84-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/</guid>
+      <description>애플리케이션을 무 상태로 구현하는 것은 매우 중요합니다. 그래야 언제든 확장 및 축소가 가능하기 때문이죠. 그러나 구조적으로 유 상태 애플리케이션이 되는 것들이 있습니다. 대표적인 사례가 보통 소켓 통신을 사용하는 WebRTC의 시그널링 서버입니다. 따라서 이를 무 상태 구조로 만들어 주는게 가장 큰 과제죠.
+소켓 서버가 유 상태인 이유는 보통 소켓은 사용자끼리 데이터를 주소 받을때 사용합니다. 즉 사용자A와 사용자B가 채팅 방에 접속해 대화를 나누는 시나리오가 이미 유 상태라는거죠. 이유는 간단합니다. 소켓 서버에 접속한 클라이언트 정보가 서버 프로세스의 메모리 영역에서 관리되고 있기 때문입니다.</description>
+    </item>
+    
+    <item>
+      <title>Modern Web-App The Hard Way</title>
+      <link>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</link>
+      <pubDate>Sun, 23 Feb 2020 15:23:57 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</guid>
+      <description>깃헙에서 보기
+이 문서는 당신이 어떤 그룹에 속해 있던지 IT 업계에서 실용적으로 활용 가능한 사례를 소개할것이다. 취업을 앞둔 학생은 학교에서 배우던 지식 외에 실무에서 요구하는 지식을 엿볼수 있을것이며 주니어 개발자라면 점점 성장하는 기업에 속해 있지 않은 이상 몸소 경험하기 어려운 주제들을 배울수있을것이다. 만약 당신이 스타트업의 대표 혹은 이를 준비하고 있다면 이 문서를 한 번 쯤 읽어보는 것을 추천한다.
+들어가며 이 문서는 비즈니스 요구 사항에 따른 자연스러운 개발 설계의 변화를 소개한다. 다만 나는 이 설계가 최대한 많은 독자들에게 유용한 정보이길 바라기 때문에 특정 비즈니스 로직에 한정지어 진행해 나갈 수 없다.</description>
+    </item>
+    
+  </channel>
+</rss>

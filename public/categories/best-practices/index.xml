@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Best Practices on 손당근 개발 블로그</title>
+    <link>https://dangen-effy.github.io/categories/best-practices/</link>
+    <description>Recent content in Best Practices on 손당근 개발 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 23 Feb 2020 15:25:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://dangen-effy.github.io/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>(보안) AWS 루트 계정 버리기 — 모범 사례 따라하기</title>
+      <link>https://dangen-effy.github.io/post/%EB%B3%B4%EC%95%88-aws-%EB%A3%A8%ED%8A%B8-%EA%B3%84%EC%A0%95-%EB%B2%84%EB%A6%AC%EA%B8%B0-%EB%AA%A8%EB%B2%94-%EC%82%AC%EB%A1%80-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sun, 23 Feb 2020 15:25:42 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/post/%EB%B3%B4%EC%95%88-aws-%EB%A3%A8%ED%8A%B8-%EA%B3%84%EC%A0%95-%EB%B2%84%EB%A6%AC%EA%B8%B0-%EB%AA%A8%EB%B2%94-%EC%82%AC%EB%A1%80-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</guid>
+      <description>대부분 스타트업의 자료는 클라우드에 저장됩니다. 루트 계정을 사용하면서요. 🔑
+AWS로 예를 들겠습니다. 어떤 스타트업이 탄생하고 AWS 계정을 생성합니다. 신용 카드를 등록하고 자원을 생성합니다. 시간이 지나서 구성원이 증가하고 모두가 여전히 루트 계정으로 AWS에 접근합니다. 누군가 현 상태의 문제점을 지적하지만 귀찮다는 이유 + 현재는 서비스가 작으니 보안보다 개발에 집중해야 한다는 핑계로 여전히 루트 계정을 사용합니다.
+기업에서 가장 막대한 피해를 보는 해킹 사례가 뭘 까요? 바로 클라우드 계정 탈취입니다. 지금부터 제가 AWS IAM 운영 모범 사례 기반으로 리모트몬스터를 루트 계정으로부터 자유롭게 만든 경험에 대해 얘기하겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>Modern Web-App The Hard Way</title>
+      <link>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</link>
+      <pubDate>Sun, 23 Feb 2020 15:23:57 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</guid>
+      <description>깃헙에서 보기
+이 문서는 당신이 어떤 그룹에 속해 있던지 IT 업계에서 실용적으로 활용 가능한 사례를 소개할것이다. 취업을 앞둔 학생은 학교에서 배우던 지식 외에 실무에서 요구하는 지식을 엿볼수 있을것이며 주니어 개발자라면 점점 성장하는 기업에 속해 있지 않은 이상 몸소 경험하기 어려운 주제들을 배울수있을것이다. 만약 당신이 스타트업의 대표 혹은 이를 준비하고 있다면 이 문서를 한 번 쯤 읽어보는 것을 추천한다.
+들어가며 이 문서는 비즈니스 요구 사항에 따른 자연스러운 개발 설계의 변화를 소개한다. 다만 나는 이 설계가 최대한 많은 독자들에게 유용한 정보이길 바라기 때문에 특정 비즈니스 로직에 한정지어 진행해 나갈 수 없다.</description>
+    </item>
+    
+  </channel>
+</rss>
