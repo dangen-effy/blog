@@ -1,0 +1,28 @@
+baseURL = "https://dangen-effy.github.io/"
+languageCode = "ko-kr"
+paginate = 5
+title = "손당근 개발 블로그"
+enableEmoji = true
+theme = "hugo-theme-yinyang"
+defaultContentLanguage = "ko"
+enableRobotsTXT = true
+[author]
+  name = "Sohn Dangen"
+  homepage = "https://dangen-effy.github.io/"
+
+[params]
+mainSections = ["post"]
+headTitle = "🥕성공한 젊은이"
+description = "손당근의 블로그"
+disqus = "sohn-dangen-blog"
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158927245-1"></script>'
+favicon = "/favicon.ico"
+location = "Seoul, Korea"
+images = ["dangen.png"]
+
+[[params.socials]]
+name = "Me"
+link = "https://dangen-effy.github.io/about"
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
