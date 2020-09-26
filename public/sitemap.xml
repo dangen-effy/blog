@@ -147,41 +147,6 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/devops/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/devops/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/tags/docker-compose/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/elastic/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/elasticsearch/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/tags/log/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/post/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%84%9C%EC%B9%98-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0-%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%9E%AC%EC%82%B0%EC%9D%B4%EB%8B%A4/</loc>
-    <lastmod>2020-02-23T15:27:02+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dangen-effy.github.io/categories/auto-scaling/</loc>
     <lastmod>2020-02-23T15:26:27+09:00</lastmod>
   </url>
@@ -198,6 +163,16 @@
   
   <url>
     <loc>https://dangen-effy.github.io/categories/aws-cost-optimization/</loc>
+    <lastmod>2020-02-23T15:26:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dangen-effy.github.io/tags/devops/</loc>
+    <lastmod>2020-02-23T15:26:27+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dangen-effy.github.io/categories/devops/</loc>
     <lastmod>2020-02-23T15:26:27+09:00</lastmod>
   </url>
   
@@ -297,16 +272,6 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</loc>
-    <lastmod>2020-02-23T15:23:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/the-twelve-factor-application/</loc>
-    <lastmod>2020-02-23T15:23:57+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dangen-effy.github.io/categories/docker/</loc>
     <lastmod>2020-02-23T15:22:11+09:00</lastmod>
   </url>
@@ -344,14 +309,6 @@
   <url>
     <loc>https://dangen-effy.github.io/post/%EB%A7%A5%EB%B6%81-%ED%8F%AC%EB%A7%B7-%ED%9B%84-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85%ED%95%98%EA%B8%B0/</loc>
     <lastmod>2020-02-23T15:18:53+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/tags/ci/cd/</loc>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/ci/cd/</loc>
   </url>
   
 </urlset>

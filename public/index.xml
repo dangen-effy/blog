@@ -70,17 +70,6 @@ The GitLab team handbook is the central repository for how we run the company. P
     </item>
     
     <item>
-      <title>엘라스틱서치 클러스터 직접 구성하기 - 로그가 재산이다</title>
-      <link>https://dangen-effy.github.io/post/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%84%9C%EC%B9%98-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0-%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%9E%AC%EC%82%B0%EC%9D%B4%EB%8B%A4/</link>
-      <pubDate>Sun, 23 Feb 2020 15:27:02 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/post/%EC%97%98%EB%9D%BC%EC%8A%A4%ED%8B%B1%EC%84%9C%EC%B9%98-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0-%EC%A7%81%EC%A0%91-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0-%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%9E%AC%EC%82%B0%EC%9D%B4%EB%8B%A4/</guid>
-      <description>리모트몬스터는 다양한 형태의 로그를 수집해 점수를 매겨 통화/방송의 품질을 측정합니다. 📈
-예를 들어, 어느 구간에서 패킷 손실이 많이 일어나는지 혹은 어떤 네트워크 상황에서 실패율이 높은지 등 다양한 지표를 모델링하고 개선 점을 도출합니다. 즉 로그의 손실은 저희의 비즈니스 인사이트의 손실에 직결됩니다. 때문에 어떻게든 엘라스틱서치 같은 로그 저장소의 안정성을 확보 하는데 목숨을 걸어야 합니다. 서비스가 안정적인 상태에서 남는건 로그 밖에 없거든요 :)
-이제부터 제가 리모트몬스터에서 싱글 노드로 운영하던 엘라스틱서치를 멀티 클러스터 형태로 전환시킨 경험을 토대로 클러스터 구축 방법을 간략히 풀어 나가려고 합니다.</description>
-    </item>
-    
-    <item>
       <title>가난한 스타트업의 WebRTC 비용절감 위한 고군분투기</title>
       <link>https://dangen-effy.github.io/post/%EA%B0%80%EB%82%9C%ED%95%9C-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%98-webrtc-%EB%B9%84%EC%9A%A9%EC%A0%88%EA%B0%90-%EC%9C%84%ED%95%9C-%EA%B3%A0%EA%B5%B0%EB%B6%84%ED%88%AC%EA%B8%B0/</link>
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
@@ -121,17 +110,6 @@ AWS로 예를 들겠습니다. 어떤 스타트업이 탄생하고 AWS 계정을
       <guid>https://dangen-effy.github.io/post/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%9D%B8%ED%94%84%EB%9D%BC%EC%8A%A4%ED%8A%B8%EB%9F%AD%EC%B2%98%EB%9E%80/</guid>
       <description>클라우드 네이티브의 정의 클라우드 네이티브 컴퓨팅 재단(CNCF)에서 다음과 같이 공식적으로 정의하고 있습니다.
  클라우드-네이티브 기반 기술을 통해 조직은 퍼블릭, 프라이빗 및 하이브리드 클라우드와 같은 현대적이고 동적인 환경에서 확장 가능한 애플리케이션을 구축하고 실행할 수 있습니다. 컨테이너, 서비스 메시, 마이크로 서비스, 불변형 인프라 및 선언형 API가 이러한 접근 방식을 예시하고 있습니다. 이러한 기술을 통해 탄력성, 관리 및 관찰이 가능한 느슨하게 결합된 시스템을 사용할 수 있습니다. 강력한 자동화와 결합되어 엔지니어는 최소의 노력으로 영향을 많이 미치는 변화를 자주 예측 가능하게 되었습니다.</description>
-    </item>
-    
-    <item>
-      <title>Modern Web-App The Hard Way</title>
-      <link>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</link>
-      <pubDate>Sun, 23 Feb 2020 15:23:57 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/post/modern-web-app-the-hard-way/</guid>
-      <description>깃헙에서 보기
-이 문서는 당신이 어떤 그룹에 속해 있던지 IT 업계에서 실용적으로 활용 가능한 사례를 소개할것이다. 취업을 앞둔 학생은 학교에서 배우던 지식 외에 실무에서 요구하는 지식을 엿볼수 있을것이며 주니어 개발자라면 점점 성장하는 기업에 속해 있지 않은 이상 몸소 경험하기 어려운 주제들을 배울수있을것이다. 만약 당신이 스타트업의 대표 혹은 이를 준비하고 있다면 이 문서를 한 번 쯤 읽어보는 것을 추천한다.
-들어가며 이 문서는 비즈니스 요구 사항에 따른 자연스러운 개발 설계의 변화를 소개한다. 다만 나는 이 설계가 최대한 많은 독자들에게 유용한 정보이길 바라기 때문에 특정 비즈니스 로직에 한정지어 진행해 나갈 수 없다.</description>
     </item>
     
     <item>

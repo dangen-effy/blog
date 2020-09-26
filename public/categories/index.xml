@@ -93,33 +93,6 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://dangen-effy.github.io/categories/devops/</link>
-      <pubDate>Sun, 23 Feb 2020 15:27:02 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elastic</title>
-      <link>https://dangen-effy.github.io/categories/elastic/</link>
-      <pubDate>Sun, 23 Feb 2020 15:27:02 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/elastic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elasticsearch</title>
-      <link>https://dangen-effy.github.io/categories/elasticsearch/</link>
-      <pubDate>Sun, 23 Feb 2020 15:27:02 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/elasticsearch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Auto Scaling</title>
       <link>https://dangen-effy.github.io/categories/auto-scaling/</link>
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
@@ -143,6 +116,15 @@
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
       
       <guid>https://dangen-effy.github.io/categories/aws-cost-optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://dangen-effy.github.io/categories/devops/</link>
+      <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/categories/devops/</guid>
       <description></description>
     </item>
     
@@ -237,15 +219,6 @@
     </item>
     
     <item>
-      <title>The Twelve-Factor Application</title>
-      <link>https://dangen-effy.github.io/categories/the-twelve-factor-application/</link>
-      <pubDate>Sun, 23 Feb 2020 15:23:57 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/the-twelve-factor-application/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>https://dangen-effy.github.io/categories/docker/</link>
       <pubDate>Sun, 23 Feb 2020 15:22:11 +0900</pubDate>
@@ -269,15 +242,6 @@
       <pubDate>Sun, 23 Feb 2020 15:18:53 +0900</pubDate>
       
       <guid>https://dangen-effy.github.io/categories/ide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CI/CD</title>
-      <link>https://dangen-effy.github.io/categories/ci/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/ci/cd/</guid>
       <description></description>
     </item>
     

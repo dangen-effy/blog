@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/dangen-effy/dangen-effy.github.io
 	branch = master
+[submodule "themes/hugo-theme-yinyang"]
+	path = themes/hugo-theme-yinyang
+	url = https://github.com/joway/hugo-theme-yinyang
