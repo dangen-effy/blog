@@ -29,7 +29,6 @@ private GameObject FindNearestObjectByTag(string tag)
         {
             return Vector3.Distance(transform.position, enemy.transform.position);
         })
-        .ToList()
         .FirstOrDefault(); 
 
     return neareastEnemy;
@@ -41,3 +40,8 @@ private GameObject FindNearestObjectByTag(string tag)
 - FirstOrDefault 메소드는 List 의 첫 번째 요소를 반환합니다. 만약 List 가 비어있다면 null 을 반환합니다.
 
 - 최종적으로 neareastEnemy 변수에 가장 가까운 오브젝트가 저장됩니다.
+
+## 더 알아보기
+
+- https://unity3d.college/2017/07/01/linq-unity-developers/
+- https://learn.unity.com/project/c-survival-guide-linq
