@@ -6,11 +6,7 @@
     <description>Recent content in Tags on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://dangen-effy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LINQ</title>
       <link>https://dangen-effy.github.io/tags/linq/</link>
@@ -21,20 +17,20 @@
     </item>
     
     <item>
-      <title>유니티</title>
-      <link>https://dangen-effy.github.io/tags/%EC%9C%A0%EB%8B%88%ED%8B%B0/</link>
+      <title>Unity</title>
+      <link>https://dangen-effy.github.io/tags/unity/</link>
       <pubDate>Sun, 18 Oct 2020 17:13:52 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/%EC%9C%A0%EB%8B%88%ED%8B%B0/</guid>
+      <guid>https://dangen-effy.github.io/tags/unity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cloud Native</title>
-      <link>https://dangen-effy.github.io/tags/cloud-native/</link>
+      <title>Cloud_Native</title>
+      <link>https://dangen-effy.github.io/tags/cloud_native/</link>
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/cloud-native/</guid>
+      <guid>https://dangen-effy.github.io/tags/cloud_native/</guid>
       <description></description>
     </item>
     
@@ -57,11 +53,11 @@
     </item>
     
     <item>
-      <title>The Twelve-Factor Application</title>
-      <link>https://dangen-effy.github.io/tags/the-twelve-factor-application/</link>
+      <title>The_Twelve-Factor_Application</title>
+      <link>https://dangen-effy.github.io/tags/the_twelve-factor_application/</link>
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/the-twelve-factor-application/</guid>
+      <guid>https://dangen-effy.github.io/tags/the_twelve-factor_application/</guid>
       <description></description>
     </item>
     
@@ -84,47 +80,38 @@
     </item>
     
     <item>
-      <title>원격 근무</title>
-      <link>https://dangen-effy.github.io/tags/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</link>
+      <title>Company</title>
+      <link>https://dangen-effy.github.io/tags/company/</link>
       <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</guid>
+      <guid>https://dangen-effy.github.io/tags/company/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>코로나</title>
-      <link>https://dangen-effy.github.io/tags/%EC%BD%94%EB%A1%9C%EB%82%98/</link>
+      <title>Remote_Job</title>
+      <link>https://dangen-effy.github.io/tags/remote_job/</link>
       <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/%EC%BD%94%EB%A1%9C%EB%82%98/</guid>
+      <guid>https://dangen-effy.github.io/tags/remote_job/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>회사</title>
-      <link>https://dangen-effy.github.io/tags/%ED%9A%8C%EC%82%AC/</link>
-      <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/tags/%ED%9A%8C%EC%82%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>면접</title>
-      <link>https://dangen-effy.github.io/tags/%EB%A9%B4%EC%A0%91/</link>
+      <title>Career</title>
+      <link>https://dangen-effy.github.io/tags/career/</link>
       <pubDate>Sat, 07 Mar 2020 14:47:17 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/%EB%A9%B4%EC%A0%91/</guid>
+      <guid>https://dangen-effy.github.io/tags/career/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>취업</title>
-      <link>https://dangen-effy.github.io/tags/%EC%B7%A8%EC%97%85/</link>
+      <title>Job</title>
+      <link>https://dangen-effy.github.io/tags/job/</link>
       <pubDate>Sat, 07 Mar 2020 14:47:17 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/tags/%EC%B7%A8%EC%97%85/</guid>
+      <guid>https://dangen-effy.github.io/tags/job/</guid>
       <description></description>
     </item>
     

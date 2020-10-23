@@ -32,17 +32,17 @@
   </url>
   
   <url>
+    <loc>https://dangen-effy.github.io/tags/unity/</loc>
+    <lastmod>2020-10-18T17:13:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dangen-effy.github.io/categories/unity/</loc>
+    <lastmod>2020-10-18T17:13:52+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dangen-effy.github.io/</loc>
-    <lastmod>2020-10-18T17:13:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/tags/%EC%9C%A0%EB%8B%88%ED%8B%B0/</loc>
-    <lastmod>2020-10-18T17:13:52+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/%EC%9C%A0%EB%8B%88%ED%8B%B0/</loc>
     <lastmod>2020-10-18T17:13:52+09:00</lastmod>
   </url>
   
@@ -52,12 +52,12 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/cloud-native/</loc>
+    <loc>https://dangen-effy.github.io/tags/cloud_native/</loc>
     <lastmod>2020-09-05T17:34:18+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/cloud-native/</loc>
+    <loc>https://dangen-effy.github.io/categories/cloud_native/</loc>
     <lastmod>2020-09-05T17:34:18+09:00</lastmod>
   </url>
   
@@ -77,7 +77,7 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/the-twelve-factor-application/</loc>
+    <loc>https://dangen-effy.github.io/tags/the_twelve-factor_application/</loc>
     <lastmod>2020-09-05T17:34:18+09:00</lastmod>
   </url>
   
@@ -112,22 +112,22 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</loc>
+    <loc>https://dangen-effy.github.io/tags/company/</loc>
     <lastmod>2020-03-07T17:01:18+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</loc>
+    <loc>https://dangen-effy.github.io/categories/company/</loc>
     <lastmod>2020-03-07T17:01:18+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/%EC%BD%94%EB%A1%9C%EB%82%98/</loc>
+    <loc>https://dangen-effy.github.io/tags/remote_job/</loc>
     <lastmod>2020-03-07T17:01:18+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/%EC%BD%94%EB%A1%9C%EB%82%98/</loc>
+    <loc>https://dangen-effy.github.io/categories/remote_job/</loc>
     <lastmod>2020-03-07T17:01:18+09:00</lastmod>
   </url>
   
@@ -137,22 +137,22 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/%ED%9A%8C%EC%82%AC/</loc>
-    <lastmod>2020-03-07T17:01:18+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/%ED%9A%8C%EC%82%AC/</loc>
-    <lastmod>2020-03-07T17:01:18+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/tags/%EB%A9%B4%EC%A0%91/</loc>
+    <loc>https://dangen-effy.github.io/tags/career/</loc>
     <lastmod>2020-03-07T14:47:17+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/%EB%A9%B4%EC%A0%91/</loc>
+    <loc>https://dangen-effy.github.io/categories/career/</loc>
+    <lastmod>2020-03-07T14:47:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dangen-effy.github.io/tags/job/</loc>
+    <lastmod>2020-03-07T14:47:17+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dangen-effy.github.io/categories/job/</loc>
     <lastmod>2020-03-07T14:47:17+09:00</lastmod>
   </url>
   
@@ -162,17 +162,7 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/tags/%EC%B7%A8%EC%97%85/</loc>
-    <lastmod>2020-03-07T14:47:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/%EC%B7%A8%EC%97%85/</loc>
-    <lastmod>2020-03-07T14:47:17+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dangen-effy.github.io/categories/auto-scaling/</loc>
+    <loc>https://dangen-effy.github.io/categories/auto_scaling/</loc>
     <lastmod>2020-02-23T15:26:27+09:00</lastmod>
   </url>
   
@@ -187,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/aws-cost-optimization/</loc>
+    <loc>https://dangen-effy.github.io/categories/aws_cost_optimization/</loc>
     <lastmod>2020-02-23T15:26:27+09:00</lastmod>
   </url>
   
@@ -222,12 +212,12 @@
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/aws-iam/</loc>
+    <loc>https://dangen-effy.github.io/categories/aws_iam/</loc>
     <lastmod>2020-02-23T15:25:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dangen-effy.github.io/categories/best-practices/</loc>
+    <loc>https://dangen-effy.github.io/categories/best_practices/</loc>
     <lastmod>2020-02-23T15:25:42+09:00</lastmod>
   </url>
   

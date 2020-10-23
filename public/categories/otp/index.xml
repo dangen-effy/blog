@@ -6,11 +6,7 @@
     <description>Recent content in OTP on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 23 Feb 2020 15:25:42 +0900</lastBuildDate>
-    
-	<atom:link href="https://dangen-effy.github.io/categories/otp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 23 Feb 2020 15:25:42 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/categories/otp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>(보안) AWS 루트 계정 버리기 — 모범 사례 따라하기</title>
       <link>https://dangen-effy.github.io/post/%EB%B3%B4%EC%95%88-aws-%EB%A3%A8%ED%8A%B8-%EA%B3%84%EC%A0%95-%EB%B2%84%EB%A6%AC%EA%B8%B0-%EB%AA%A8%EB%B2%94-%EC%82%AC%EB%A1%80-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0/</link>

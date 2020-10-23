@@ -6,11 +6,7 @@
     <description>Recent content in Categories on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate>
-    
-	<atom:link href="https://dangen-effy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LINQ</title>
       <link>https://dangen-effy.github.io/categories/linq/</link>
@@ -21,20 +17,20 @@
     </item>
     
     <item>
-      <title>유니티</title>
-      <link>https://dangen-effy.github.io/categories/%EC%9C%A0%EB%8B%88%ED%8B%B0/</link>
+      <title>Unity</title>
+      <link>https://dangen-effy.github.io/categories/unity/</link>
       <pubDate>Sun, 18 Oct 2020 17:13:52 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/%EC%9C%A0%EB%8B%88%ED%8B%B0/</guid>
+      <guid>https://dangen-effy.github.io/categories/unity/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cloud Native</title>
-      <link>https://dangen-effy.github.io/categories/cloud-native/</link>
+      <title>Cloud_Native</title>
+      <link>https://dangen-effy.github.io/categories/cloud_native/</link>
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/cloud-native/</guid>
+      <guid>https://dangen-effy.github.io/categories/cloud_native/</guid>
       <description></description>
     </item>
     
@@ -66,56 +62,47 @@
     </item>
     
     <item>
-      <title>원격 근무</title>
-      <link>https://dangen-effy.github.io/categories/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</link>
+      <title>Company</title>
+      <link>https://dangen-effy.github.io/categories/company/</link>
       <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4/</guid>
+      <guid>https://dangen-effy.github.io/categories/company/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>코로나</title>
-      <link>https://dangen-effy.github.io/categories/%EC%BD%94%EB%A1%9C%EB%82%98/</link>
+      <title>Remote_Job</title>
+      <link>https://dangen-effy.github.io/categories/remote_job/</link>
       <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/%EC%BD%94%EB%A1%9C%EB%82%98/</guid>
+      <guid>https://dangen-effy.github.io/categories/remote_job/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>회사</title>
-      <link>https://dangen-effy.github.io/categories/%ED%9A%8C%EC%82%AC/</link>
-      <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/%ED%9A%8C%EC%82%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>면접</title>
-      <link>https://dangen-effy.github.io/categories/%EB%A9%B4%EC%A0%91/</link>
+      <title>Career</title>
+      <link>https://dangen-effy.github.io/categories/career/</link>
       <pubDate>Sat, 07 Mar 2020 14:47:17 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/%EB%A9%B4%EC%A0%91/</guid>
+      <guid>https://dangen-effy.github.io/categories/career/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>취업</title>
-      <link>https://dangen-effy.github.io/categories/%EC%B7%A8%EC%97%85/</link>
+      <title>Job</title>
+      <link>https://dangen-effy.github.io/categories/job/</link>
       <pubDate>Sat, 07 Mar 2020 14:47:17 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/%EC%B7%A8%EC%97%85/</guid>
+      <guid>https://dangen-effy.github.io/categories/job/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Auto Scaling</title>
-      <link>https://dangen-effy.github.io/categories/auto-scaling/</link>
+      <title>Auto_Scaling</title>
+      <link>https://dangen-effy.github.io/categories/auto_scaling/</link>
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/auto-scaling/</guid>
+      <guid>https://dangen-effy.github.io/categories/auto_scaling/</guid>
       <description></description>
     </item>
     
@@ -129,11 +116,11 @@
     </item>
     
     <item>
-      <title>AWS Cost Optimization</title>
-      <link>https://dangen-effy.github.io/categories/aws-cost-optimization/</link>
+      <title>AWS_Cost_Optimization</title>
+      <link>https://dangen-effy.github.io/categories/aws_cost_optimization/</link>
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/aws-cost-optimization/</guid>
+      <guid>https://dangen-effy.github.io/categories/aws_cost_optimization/</guid>
       <description></description>
     </item>
     
@@ -156,20 +143,20 @@
     </item>
     
     <item>
-      <title>AWS IAM</title>
-      <link>https://dangen-effy.github.io/categories/aws-iam/</link>
+      <title>AWS_IAM</title>
+      <link>https://dangen-effy.github.io/categories/aws_iam/</link>
       <pubDate>Sun, 23 Feb 2020 15:25:42 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/aws-iam/</guid>
+      <guid>https://dangen-effy.github.io/categories/aws_iam/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Best Practices</title>
-      <link>https://dangen-effy.github.io/categories/best-practices/</link>
+      <title>Best_Practices</title>
+      <link>https://dangen-effy.github.io/categories/best_practices/</link>
       <pubDate>Sun, 23 Feb 2020 15:25:42 +0900</pubDate>
       
-      <guid>https://dangen-effy.github.io/categories/best-practices/</guid>
+      <guid>https://dangen-effy.github.io/categories/best_practices/</guid>
       <description></description>
     </item>
     
