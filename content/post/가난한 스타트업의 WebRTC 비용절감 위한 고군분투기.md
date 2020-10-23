@@ -2,7 +2,8 @@
 title: "가난한 스타트업의 WebRTC 비용절감 위한 고군분투기"
 description: "AWS Lightsail 오토 스케일링을 통한 비용 절감하기"
 tags: ["AWS", "DevOps", "Lightsail"]
-categories: ["AWS", "DevOps", "AWS Cost Optimization", "Lightsail", "Auto Scaling"]
+categories:
+  ["AWS", "DevOps", "AWS_Cost_Optimization", "Lightsail", "Auto_Scaling"]
 date: 2020-02-23T15:26:27+09:00
 draft: false
 ---
@@ -21,23 +22,23 @@ draft: false
 
 가장 대표적인 예시는 AWS Lightsail (이하 라이트세일)입니다. 라이트세일은 EC2 처럼 인스턴스 자원을 생성하고 관리하는 곳입니다. 하지만 가장 큰 차이점은 가격인데요, 동일한 vCPU 개수와 Memory 용량을 가지고 가격을 비교해보면 EC2 가 약 1.5배정도 비쌉니다.
 
-![가격 비교](https://cdn-images-1.medium.com/max/2000/1*5DSAlIfWFsEJcrGBHcXlrA.png)*가격 비교*
+![가격 비교](https://cdn-images-1.medium.com/max/2000/1*5DSAlIfWFsEJcrGBHcXlrA.png)_가격 비교_
 
 그럼 항상 라이트세일을 사용하지 EC2를 왜 쓸까요? 당연히 라이트세일은 가격이 싼 만큼 단점도 명확합니다.
 
-* AWS Auto Scailing Group 적용 불가
+- AWS Auto Scailing Group 적용 불가
 
-* Security Group 가 없어 Ip Address Range 적용 불가
+- Security Group 가 없어 Ip Address Range 적용 불가
 
-* Volume 타입 변경 및 용량 조절 불가
+- Volume 타입 변경 및 용량 조절 불가
 
-* AWS CloudWatch 적용 불가
+- AWS CloudWatch 적용 불가
 
-* EC2 에 비해 부족한 AWS CLI API
+- EC2 에 비해 부족한 AWS CLI API
 
-* EKS 에서 라이트세일에 자원 생성 불가
+- EKS 에서 라이트세일에 자원 생성 불가
 
-* …
+- …
 
 나열 할게 더 남았지만 라이트세일이 너무 불쌍해서 여기까지만 하겠습니다. 종합적으로 봤을때 가장 큰 단점은 스케일링에 자유롭지 못한걸로 볼 수 있겠죠.
 
@@ -68,9 +69,9 @@ draft: false
     IF 여유_서버_목표치 < 노는_서버의_개수
      AWS_Lightsail_DeleteInstance()
 
-![의사코드 버전 1.0 토폴로지](https://cdn-images-1.medium.com/max/2000/1*U66j3YYM_Ew8JSTKXrQzvA.png)*의사코드 버전 1.0 토폴로지*
+![의사코드 버전 1.0 토폴로지](https://cdn-images-1.medium.com/max/2000/1*U66j3YYM_Ew8JSTKXrQzvA.png)_의사코드 버전 1.0 토폴로지_
 
-간단하게 1.0 버전을 만들어 보았지만 만족스럽지 못했습니다. 여유_서버_목표치 변수가 하드코딩 되어있어 애플리케이션을 재배포 하지 않는 이상 언제나 10개의 여유 서버를 돌리길 원하겠죠. 만약에 서비스 사용자가 급격히 증가한다면? 여유 서버를 10대로는 턱도 없을 겁니다. 즉, 여유 서버 목표치를 언제나 자유롭게 조절 가능하게 만들어야 합니다. 쉽게 말해 Remote Configuration 이 가능해야죠.
+간단하게 1.0 버전을 만들어 보았지만 만족스럽지 못했습니다. 여유*서버*목표치 변수가 하드코딩 되어있어 애플리케이션을 재배포 하지 않는 이상 언제나 10개의 여유 서버를 돌리길 원하겠죠. 만약에 서비스 사용자가 급격히 증가한다면? 여유 서버를 10대로는 턱도 없을 겁니다. 즉, 여유 서버 목표치를 언제나 자유롭게 조절 가능하게 만들어야 합니다. 쉽게 말해 Remote Configuration 이 가능해야죠.
 
 의사 코드 버전 2.0
 
@@ -83,7 +84,7 @@ draft: false
     IF 여유_서버_목표치 < 노는_서버의_개수
      AWS_Lightsail_DeleteInstance()
 
-![의사코드 버전 2.0 토폴로지](https://cdn-images-1.medium.com/max/2000/1*l3lWiNmLO-fBJ5DixiIPWg.png)*의사코드 버전 2.0 토폴로지*
+![의사코드 버전 2.0 토폴로지](https://cdn-images-1.medium.com/max/2000/1*l3lWiNmLO-fBJ5DixiIPWg.png)_의사코드 버전 2.0 토폴로지_
 
 2.0 버전에도 불만족스러운 부분이 존재합니다. 바로 Tag 값이 사람이 직접 바꿔주야 한다는 건데요, 그렇게되면 비교적 사용량이 적은 새벽 혹은 밤 시간대, 주말에는 남는 자원이 발생합니다. 이를 해소하고자 시간, 요일에 따라 Tag 를 변경하는 Cron으로 스케줄링을 걸어두었습니다.
 
@@ -100,7 +101,7 @@ draft: false
     IF 여유_서버_목표치 < 노는_서버의_개수
      AWS_Lightsail_DeleteInstance()
 
-![의사코드 버전 3.0 토폴로지](https://cdn-images-1.medium.com/max/2064/1*lDXETqKY8qoVKcchmQ_ofw.png)*의사코드 버전 3.0 토폴로지*
+![의사코드 버전 3.0 토폴로지](https://cdn-images-1.medium.com/max/2064/1*lDXETqKY8qoVKcchmQ_ofw.png)_의사코드 버전 3.0 토폴로지_
 
 이제 조금 만족스럽습니다. 하지만 운영하다보니 문제가 생겼습니다. 바로 [API Request Limit](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/throttling.html) 에 저촉되는겁니다! 기본적으로 AWS API 는 Throttling 을 걸어 놓습니다. 어떤식이냐면 일정 간격으로 서서히 회복하는 최대 요청 버킷을 담아두고 호출 할때마다 버킷에 담겨있던 토큰을 소비하는 방식입니다. 토큰 회복 속도보다 빠르게 호출하면 거절한다는 겁니다.
 
@@ -138,7 +139,7 @@ draft: false
      AWS_Lightsail_CreateInstance()
     IF 여유_서버_목표치 < 노는_서버의_개수
      AWS_Lightsail_DeleteInstance()
-     
+
     } CATCH {
      GOTO RETRY_LOOP
      Slack()

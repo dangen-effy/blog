@@ -3,8 +3,8 @@ title: "유니티 for문 없이 가장 가까운 오브젝트 구하기"
 description: "LINQ를 활용한 오브젝트 거리 정렬하기"
 date: 2020-10-18T17:13:52+09:00
 draft: false
-tags: ["유니티", "LINQ"]
-categories: ["유니티", "LINQ"]
+tags: ["Unity", "LINQ"]
+categories: ["Unity", "LINQ"]
 ---
 
 ![foreach vs linq](/images/forvslinq.PNG)
@@ -29,7 +29,7 @@ private GameObject FindNearestObjectByTag(string tag)
         {
             return Vector3.Distance(transform.position, enemy.transform.position);
         })
-        .FirstOrDefault(); 
+        .FirstOrDefault();
 
     return neareastEnemy;
 }

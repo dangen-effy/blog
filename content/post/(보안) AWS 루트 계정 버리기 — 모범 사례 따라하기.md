@@ -2,7 +2,7 @@
 title: "(보안) AWS 루트 계정 버리기 — 모범 사례 따라하기"
 description: "대부분 스타트업의 자료는 클라우드에 저장됩니다. 루트 계정을 사용하면서요. 🔑"
 tags: ["AWS", "Security", "MFA"]
-categories: ["AWS IAM", "Security", "Best Practices", "MFA", "OTP"]
+categories: ["AWS_IAM", "Security", "Best_Practices", "MFA", "OTP"]
 date: 2020-02-23T15:25:42+09:00
 draft: false
 ---
@@ -45,15 +45,15 @@ AWS의 로깅 기능(CloudTrail 등)을 통해서 사용자가 하는 모든 행
 
 저는 리모트몬스터를 세 가지 그룹으로 나눠봤습니다.
 
-![리모트몬스터의 그룹](https://cdn-images-1.medium.com/max/2000/1*jGoDN103eWrFOHUAEl9fVQ.png)*리모트몬스터의 그룹*
+![리모트몬스터의 그룹](https://cdn-images-1.medium.com/max/2000/1*jGoDN103eWrFOHUAEl9fVQ.png)_리모트몬스터의 그룹_
 
 이를 토대로 IAM Group 을 만들어줍니다.
 
-* RemonSysAdmin
+- RemonSysAdmin
 
-* RemonDeveloper
+- RemonDeveloper
 
-* RemonBiz
+- RemonBiz
 
 ## 그룹에 정책 붙여주기
 
@@ -61,17 +61,17 @@ AWS의 로깅 기능(CloudTrail 등)을 통해서 사용자가 하는 모든 행
 
 예를 들어 어드민 그룹에는 IAM 접근 권한을 포함한 모든 AWS 리소스에 접근 가능해야합니다. 반면에 개발팀은 우리가 사용하는 특정 서비스(S3 등)에 대한 권한만 열어주면 되겠죠? 마지막으로 비즈팀은 필요에 따라서 ReadOnly 권한을 열어줍니다.
 
-![정책을 부여 받은 그룹들](https://cdn-images-1.medium.com/max/2116/1*NNLTdnb33ns5-jEnwN9BkQ.png)*정책을 부여 받은 그룹들*
+![정책을 부여 받은 그룹들](https://cdn-images-1.medium.com/max/2116/1*NNLTdnb33ns5-jEnwN9BkQ.png)_정책을 부여 받은 그룹들_
 
 ## 사용자 만들기
 
 사용자 생성합시다. 예를 들어보죠.
 
-* 리모트몬스터의 인프라를 담당하고 있는 ‘**당근**’
+- 리모트몬스터의 인프라를 담당하고 있는 ‘**당근**’
 
-* 리모트몬스터의 SDK를 담당하고 있는 ‘**감자**’
+- 리모트몬스터의 SDK를 담당하고 있는 ‘**감자**’
 
-* 리모트몬스터의 사업 개발을 책임지고 있는 ‘**양파**’
+- 리모트몬스터의 사업 개발을 책임지고 있는 ‘**양파**’
 
 가 있다고 가정해봅시다. 먼저 사용자를 각각 생성하고 이를 알맞은 그룹에 넣어주면 되겠죠. 여기서 중요한점은 MFA 활성화를 요구하는 겁니다. AWS IAM 모범 사례에 따르면 모든 구성원들이 MFA 활성화하는 것을 권고하고 있습니다.
 
@@ -81,7 +81,7 @@ AWS의 로깅 기능(CloudTrail 등)을 통해서 사용자가 하는 모든 행
 
 마지막으로 위에서 생성한 사용자들을 알맞은 그룹에 넣어줍니다.
 
-![사용자를 역할에 따라 그룹에 포함시킨 모습](https://cdn-images-1.medium.com/max/2504/1*6eEoEzNyvUSkPIX51ixKBA.png)*사용자를 역할에 따라 그룹에 포함시킨 모습*
+![사용자를 역할에 따라 그룹에 포함시킨 모습](https://cdn-images-1.medium.com/max/2504/1*6eEoEzNyvUSkPIX51ixKBA.png)_사용자를 역할에 따라 그룹에 포함시킨 모습_
 
 ## 앞으로 할 일
 
