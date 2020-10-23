@@ -1,5 +1,5 @@
 ---
-title: "Statless 소켓 서버 구현하기"
+title: "Statless 소켓 서버 구현하기 🦾"
 description: "무상태 소켓 서버 만들기"
 tags: ["WebSocket", "Stateless"]
 categories: ["WebSocket", "Socket.io", "Stateless", "Redis"]
@@ -15,9 +15,9 @@ draft: false
 
 방법은 두가지입니다.
 
-* 스티키 세션 (L4 네트워크 영역)
+- 스티키 세션 (L4 네트워크 영역)
 
-* 백엔드 서비스에 저장 (L7 애플리케이션 영역)
+- 백엔드 서비스에 저장 (L7 애플리케이션 영역)
 
 **스티키 세션**은 로드밸런서가 기존에 요청했던 정보를 기억해 다음 요청시 같은 서버로 밸런싱 해주는 기능입니다. 스티키 세션을 이용하면 애플리케이션의 코드 수정 없이 무 상태 애플리케이션을 구현 할 수 있는 장점이 있습니다.
 
@@ -31,4 +31,4 @@ draft: false
 
 ### 관련 글
 
-* [Pros and Cons of Sticky Session / Session Affinity load blancing strategy?](https://stackoverflow.com/questions/1553645/pros-and-cons-of-sticky-session-session-affinity-load-blancing-strategy)
+- [Pros and Cons of Sticky Session / Session Affinity load blancing strategy?](https://stackoverflow.com/questions/1553645/pros-and-cons-of-sticky-session-session-affinity-load-blancing-strategy)

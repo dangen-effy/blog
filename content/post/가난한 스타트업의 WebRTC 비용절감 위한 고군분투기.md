@@ -1,5 +1,5 @@
 ---
-title: "가난한 스타트업의 WebRTC 비용절감 위한 고군분투기"
+title: "가난한 스타트업의 WebRTC 비용절감 위한 고군분투기 💸"
 description: "AWS Lightsail 오토 스케일링을 통한 비용 절감하기"
 tags: ["AWS", "DevOps", "Lightsail"]
 categories:

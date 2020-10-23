@@ -1,5 +1,5 @@
 ---
-title: "Janus 소개와 Docker 기반으로 쉽게 사용하기"
+title: "Janus 소개와 Docker 기반으로 쉽게 사용하기 🐳"
 description: "도커를 이용한 Janus 실행해보기"
 tags: ["Docker", "WebRTC"]
 categories: ["Docker", "WebRTC"]
@@ -19,17 +19,17 @@ draft: false
 
 Janus는 기본적으로 다수의 강력한 기본 플러그인을 제공하고 있습니다.
 
-* Echo Test
+- Echo Test
 
-* Streaming
+- Streaming
 
-* Video Call
+- Video Call
 
-* SIP Gateway
+- SIP Gateway
 
-* Video Room
+- Video Room
 
-* Audio Room 외 4개
+- Audio Room 외 4개
 
 직접 구현해야 한다는 말은, 만약 기본 플러그인 외에 특수한 기능이 필요하다면 직접 구현해 사용 가능하다는 맥락입니다. 이 자체를 장점으로 볼 수 있겠죠?
 
@@ -51,9 +51,9 @@ Janus의 모든 기능을 포함해 빌드하기 위해서 20+ 가지의 [라이
 
 ## 전제 조건
 
-* Docker
+- Docker
 
-* Chrome browser
+- Chrome browser
 
 먼저 소스코드를 받아주세요.
 
@@ -71,8 +71,8 @@ Janus가 요구하는 라이브러리들을 설치할때 OS 종속적인 명령�
 
     Step 1/15 : FROM ubuntu:16.04
     16.04: Pulling from library/ubuntu
-    f7277927d38a: Pull complete 
-    8d3eac894db4: Pull complete 
+    f7277927d38a: Pull complete
+    8d3eac894db4: Pull complete
     Digest: sha256:97b54e5692c27072234ff958a7442dde4266af21e7b688e7fca5dc5acc8ed7d9
     Status: Downloaded newer image for ubuntu:16.04
      ---> 5e13f8dd4c1a
@@ -84,11 +84,11 @@ Janus가 요구하는 라이브러리들을 설치할때 OS 종속적인 명령�
 
 다음은 포트가 담당하는 서비스입니다.
 
-* 80: Web server
+- 80: Web server
 
-* 8088: RESTful API
+- 8088: RESTful API
 
-* 8188: Websocket API
+- 8188: Websocket API
 
 Janus 서버가 잘 실행됐는지 확인합니다.
 
@@ -100,7 +100,7 @@ Janus 서버가 잘 실행됐는지 확인합니다.
 
 이제 [Demos] — [Video Room] 메뉴로 이동합니다. 브라우저 탭을 여러개 열어 화상 채팅에 참여해보세요.
 
-![haha1, haha2, haha3 유저 세명이서 화상 채팅을 하는 모습입니다.](https://cdn-images-1.medium.com/max/4140/1*uPz0kTJn1l1zhNqVtB8zlw.png)*haha1, haha2, haha3 유저 세명이서 화상 채팅을 하는 모습입니다.*
+![haha1, haha2, haha3 유저 세명이서 화상 채팅을 하는 모습입니다.](https://cdn-images-1.medium.com/max/4140/1*uPz0kTJn1l1zhNqVtB8zlw.png)_haha1, haha2, haha3 유저 세명이서 화상 채팅을 하는 모습입니다._
 
 ## 정리
 
