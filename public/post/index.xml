@@ -6,7 +6,18 @@
     <description>Recent content in Posts on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Oct 2020 19:51:24 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>엘릭서 패턴매칭을 함수 매개변수에 적용시켜보자 🧪</title>
+      <link>https://dangen-effy.github.io/post/%EC%97%98%EB%A6%AD%EC%84%9C-%ED%8C%A8%ED%84%B4%EB%A7%A4%EC%B9%AD-%ED%95%A8%EC%88%98-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%97%90-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Fri, 23 Oct 2020 19:51:24 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/post/%EC%97%98%EB%A6%AD%EC%84%9C-%ED%8C%A8%ED%84%B4%EB%A7%A4%EC%B9%AD-%ED%95%A8%EC%88%98-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0%EC%97%90-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+      <description>패턴매칭은 프로그래밍 언어 안에서 엘릭서가 가지는 가장 큰 차별점이죠. 이를 적절히 활용하면 장황한 코드 없이 함수의 동작을 매개 변수 패턴매칭 결과에 따라 다르게 동작하도록 코딩 할 수 있습니다.
+아래는 Programming Elixir &amp;gt;= 1.6 책에서 가져온 예제입니다.
+문제  Write a function that takes three arguments. If the first two are zero, return “FizzBuzz.” If the first is zero, return “Fizz.” If the second is zero, return “Buzz.” Otherwise return the third argument.</description>
+    </item>
+    
     <item>
       <title>유니티 for문 없이 가장 가까운 오브젝트 구하기</title>
       <link>https://dangen-effy.github.io/post/%EC%9C%A0%EB%8B%88%ED%8B%B0-for%EB%AC%B8-%EC%97%86%EC%9D%B4-%EA%B0%80%EC%9E%A5-%EA%B0%80%EA%B9%8C%EC%9A%B4-%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%ED%95%98%EA%B8%B0/</link>
@@ -19,7 +30,7 @@ LINQ 하지만 C# 은 LINQ 로 강력하고 풍부한 열거형 메소드를 지
     </item>
     
     <item>
-      <title>프로덕션 환경을 위한 최소한의 쿠버네티스 세팅</title>
+      <title>프로덕션 환경을 위한 최소한의 쿠버네티스 세팅 🛳</title>
       <link>https://dangen-effy.github.io/post/%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%ED%99%98%EA%B2%BD%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%B5%9C%EC%86%8C%ED%95%9C%EC%9D%98-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%84%B8%ED%8C%85/</link>
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
@@ -44,7 +55,7 @@ Map [1, 2, 3].map(x =&amp;gt; x * 2) // -&amp;gt; [ 2, 4, 6 ] Enum.</description
     </item>
     
     <item>
-      <title>코로나 사태와 원격 근무로 느낀 점</title>
+      <title>코로나 사태와 원격 근무로 느낀 점 😂</title>
       <link>https://dangen-effy.github.io/post/%EC%BD%94%EB%A1%9C%EB%82%98-%EC%82%AC%ED%83%9C%EC%99%80-%EC%9B%90%EA%B2%A9-%EA%B7%BC%EB%AC%B4%EB%A1%9C-%EB%8A%90%EB%82%80-%EC%A0%90/</link>
       <pubDate>Sat, 07 Mar 2020 17:01:18 +0900</pubDate>
       
@@ -67,7 +78,7 @@ The GitLab team handbook is the central repository for how we run the company. P
     </item>
     
     <item>
-      <title>가난한 스타트업의 WebRTC 비용절감 위한 고군분투기</title>
+      <title>가난한 스타트업의 WebRTC 비용절감 위한 고군분투기 💸</title>
       <link>https://dangen-effy.github.io/post/%EA%B0%80%EB%82%9C%ED%95%9C-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%98-webrtc-%EB%B9%84%EC%9A%A9%EC%A0%88%EA%B0%90-%EC%9C%84%ED%95%9C-%EA%B3%A0%EA%B5%B0%EB%B6%84%ED%88%AC%EA%B8%B0/</link>
       <pubDate>Sun, 23 Feb 2020 15:26:27 +0900</pubDate>
       
@@ -90,7 +101,7 @@ AWS로 예를 들겠습니다. 어떤 스타트업이 탄생하고 AWS 계정을
     </item>
     
     <item>
-      <title>Statless 소켓 서버 구현하기</title>
+      <title>Statless 소켓 서버 구현하기 🦾</title>
       <link>https://dangen-effy.github.io/post/statless-%EC%86%8C%EC%BC%93-%EC%84%9C%EB%B2%84-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 23 Feb 2020 15:25:14 +0900</pubDate>
       
@@ -110,7 +121,7 @@ AWS로 예를 들겠습니다. 어떤 스타트업이 탄생하고 AWS 계정을
     </item>
     
     <item>
-      <title>Janus 소개와 Docker 기반으로 쉽게 사용하기</title>
+      <title>Janus 소개와 Docker 기반으로 쉽게 사용하기 🐳</title>
       <link>https://dangen-effy.github.io/post/janus-%EC%86%8C%EA%B0%9C%EC%99%80-docker-%EA%B8%B0%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%89%BD%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 23 Feb 2020 15:22:11 +0900</pubDate>
       

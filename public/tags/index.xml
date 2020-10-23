@@ -6,7 +6,16 @@
     <description>Recent content in Tags on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 18 Oct 2020 17:13:52 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Oct 2020 19:51:24 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elixir</title>
+      <link>https://dangen-effy.github.io/tags/elixir/</link>
+      <pubDate>Fri, 23 Oct 2020 19:51:24 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>LINQ</title>
       <link>https://dangen-effy.github.io/tags/linq/</link>
@@ -58,15 +67,6 @@
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
       <guid>https://dangen-effy.github.io/tags/the_twelve-factor_application/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elixir</title>
-      <link>https://dangen-effy.github.io/tags/elixir/</link>
-      <pubDate>Sun, 09 Aug 2020 15:25:42 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/tags/elixir/</guid>
       <description></description>
     </item>
     

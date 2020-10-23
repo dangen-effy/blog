@@ -8,7 +8,7 @@
     <language>ko-kr</language>
     <lastBuildDate>Sat, 05 Sep 2020 17:34:18 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>프로덕션 환경을 위한 최소한의 쿠버네티스 세팅</title>
+      <title>프로덕션 환경을 위한 최소한의 쿠버네티스 세팅 🛳</title>
       <link>https://dangen-effy.github.io/post/%ED%94%84%EB%A1%9C%EB%8D%95%EC%85%98-%ED%99%98%EA%B2%BD%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%B5%9C%EC%86%8C%ED%95%9C%EC%9D%98-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4-%EC%84%B8%ED%8C%85/</link>
       <pubDate>Sat, 05 Sep 2020 17:34:18 +0900</pubDate>
       
@@ -20,7 +20,7 @@
     </item>
     
     <item>
-      <title>Janus 소개와 Docker 기반으로 쉽게 사용하기</title>
+      <title>Janus 소개와 Docker 기반으로 쉽게 사용하기 🐳</title>
       <link>https://dangen-effy.github.io/post/janus-%EC%86%8C%EA%B0%9C%EC%99%80-docker-%EA%B8%B0%EB%B0%98%EC%9C%BC%EB%A1%9C-%EC%89%BD%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sun, 23 Feb 2020 15:22:11 +0900</pubDate>
       
