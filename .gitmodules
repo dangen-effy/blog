@@ -4,4 +4,4 @@
 	branch = master
 [submodule "themes/hugo-theme-yinyang"]
 	path = themes/hugo-theme-yinyang
-	url = https://github.com/joway/hugo-theme-yinyang
+	url = https://github.com/dangen-effy/hugo-theme-yinyang
