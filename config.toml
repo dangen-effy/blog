@@ -26,3 +26,6 @@ link = "https://dangen-effy.github.io/about"
 [[params.socials]]
 name = "RSS"
 link = "/index.xml"
+
+[markup.goldmark.renderer]
+unsafe = true
