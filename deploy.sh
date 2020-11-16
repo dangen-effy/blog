@@ -8,6 +8,12 @@ hugo -t hugo-theme-yinyang
 # Go To Public folder
 cd public
 
+rm -rf .git
+
+git init
+
+git remote add origin https://github.com/dangen-effy/dangen-effy.github.io
+
 echo -e "\033[0;32mNow in public folder\033[0m"
 
 # Add changes to git.
