@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 손당근 개발 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 16 Nov 2020 23:30:00 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 21:00:00 +0900</lastBuildDate><atom:link href="https://dangen-effy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://dangen-effy.github.io/categories/docker/</link>
+      <pubDate>Thu, 19 Nov 2020 21:00:00 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/categories/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dockerfile</title>
+      <link>https://dangen-effy.github.io/categories/dockerfile/</link>
+      <pubDate>Thu, 19 Nov 2020 21:00:00 +0900</pubDate>
+      
+      <guid>https://dangen-effy.github.io/categories/dockerfile/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JavaScript</title>
       <link>https://dangen-effy.github.io/categories/javascript/</link>
@@ -220,15 +238,6 @@
       <pubDate>Sun, 23 Feb 2020 15:25:14 +0900</pubDate>
       
       <guid>https://dangen-effy.github.io/categories/websocket/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://dangen-effy.github.io/categories/docker/</link>
-      <pubDate>Sun, 23 Feb 2020 15:22:11 +0900</pubDate>
-      
-      <guid>https://dangen-effy.github.io/categories/docker/</guid>
       <description></description>
     </item>
     
